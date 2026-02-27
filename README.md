@@ -1,5 +1,11 @@
 # reshape_statalike
 Stata의 reshape 명령어를 python pandas로 구현함
+pandas의 `melt` / `pivot`가 너무 불편하고 공수가 들어서 만들었으며 Sata와 같은 reshape 작업(엑셀의 pivot에 해당)을 가능하게 해줌
+
+Stata-style `reshape` implementation for pandas.
+
+Many Stata users find pandas `melt` / `pivot` unintuitive.
+This package provides a Stata-like reshape interface in Python.
 
 ## 주된 함수
 1. reshape_wide
